@@ -1,0 +1,58 @@
+.stem {
+    height: 140px;
+    width: 50px;
+    background-color: black;
+    align-items: center;
+
+}
+
+body {
+    background-color: darkgray;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lightbox {
+    height: 250px;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .75em;
+}
+
+.light {
+    width: 83px;
+    height: 83px;
+    display: flex;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-bottom: 1em;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.green:hover {
+    box-shadow: 0 0 80px green;
+}
+
+.red:hover {
+    box-shadow: 0 0 80px red;
+}
+
+.yellow:hover {
+    box-shadow: 0 0 80px yellow;
+}
